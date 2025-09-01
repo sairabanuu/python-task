@@ -29,3 +29,10 @@ c2.color='red'
 c2.discount=200
 c1.describe()
 c2.describe()
+
+
+# define self
+# it is a refernce to the current object of the class
+# whenever you create an object,self allows the attributes and methods of that object
+# it is a passed automatically as the first parameter in all instance methods of a class
+# by convention we use the name self,but u can use any name
