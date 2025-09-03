@@ -417,9 +417,13 @@
 #     fact*=i
 # print(fact)
 
-# s1='hello'
-# s1.reverse(s1)
-# print(s1[::-1])
+s1='hello'
+rev=""
+for ch in s1:
+    rev=ch+rev
+    print(rev)
+# reversed_s1="".join(reversed(s1))
+# print(reversed_s1)
 
 # n1=6
 # a,b=0,1
@@ -445,6 +449,7 @@
 #     print('arm')
 # else:
 #     print('no')
+
 # s1='madam'
 # rev=''
 # for ch in s1:
